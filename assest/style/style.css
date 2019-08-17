@@ -1,0 +1,30 @@
+    body {
+        background-image: url("../images/f27d5bf9084b7eec4ac92dcfccc955dd.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        color: rgb(87, 52, 7);
+    }
+    
+    .jumbotron {
+        text-align: center;
+        color: #fff;
+        background-image: url("../images/vintage-concrete.png");
+        color: rgb(87, 52, 7);
+        box-shadow: 2px 2px 2px 3px rgb(87, 52, 7);
+        text-shadow: 2px 2px 2px #fff;
+    }
+    
+    h1 {
+        color: rgb(87, 52, 7);
+    }
+    
+    .panel-title {
+        background: rgb(61, 37, 6);
+        box-shadow: 2px 2px 2px 3px rgb(209, 198, 183);
+    }
+    
+    .panel-body {
+        box-shadow: 2px 2px 2px 3px rgb(87, 52, 7);
+    }
