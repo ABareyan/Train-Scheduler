@@ -22,7 +22,16 @@ var trainFrequency = ""; // train frequency
 
 $('.attention').hide(); // hide attention div if user unputs all details of the train
 
-var correntTime = moment().format('MMMM Do YYYY, h:mm a'); // corrent time
+var correntTime = moment().format('LTS'); // corrent time
+$('#time').html(correntTime);
+
+
+
+setInterval(function() {
+    correntTime = moment().format('LTS');
+    $('#time').html(correntTime);
+    // console.log(correntTime);
+}, 1000);
 
 // console.log(correntTime);
 

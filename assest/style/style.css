@@ -46,3 +46,8 @@
         width: 40%;
         float: left;
     }
+    
+    #time {
+        margin-left: 80%;
+        font-size: 1.2em;
+    }
