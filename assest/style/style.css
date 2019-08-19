@@ -28,3 +28,21 @@
     .panel-body {
         box-shadow: 2px 2px 2px 3px rgb(87, 52, 7);
     }
+    
+    #btn {
+        background: rgb(87, 52, 7);
+    }
+    
+    .fa-trash:hover {
+        cursor: pointer;
+    }
+    
+    .attention {
+        font-size: 1.2em;
+    }
+    
+    #trainHour,
+    #trainMinute {
+        width: 40%;
+        float: left;
+    }
