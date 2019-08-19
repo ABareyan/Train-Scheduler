@@ -36,13 +36,13 @@ $('#btn').on("click", function() {
     destinationTrain = $("#trainDestination").val().trim();
     firstTrain = trainHour + ":" + trainMinute;
     trainFrequency = $("#trainFrequency").val().trim();
-
+    // if user unputs not all details of the train
     if (nameTrain === "" ||
         destinationTrain === "" ||
         firstTrain === "" ||
         trainFrequency === "") {
         $('.attention').show();
-        $('.attention').html("<p>Please input all details to add a new train and press submit</p>");
+        $('.attention').html("<p>Please input all details and press submit to add a new train</p>");
 
     } else {
         $('.attention').hide();
@@ -106,6 +106,8 @@ database.ref().on("child_added", function(childSnapshot) {
 
     $('#newTrain').append(newTable);
 
+    // remove train from list
+
     $(document).on("click", ".hover", function() {
         keyremove = $(this).attr("data-name");
         database.ref().child(keyremove).remove();
@@ -113,6 +115,8 @@ database.ref().on("child_added", function(childSnapshot) {
 
     });
 
+
+    // reload page every one minute
     setInterval(function() {
         window.location = 'index.html';
     }, 60000);
