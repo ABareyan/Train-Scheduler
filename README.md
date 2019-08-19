@@ -16,10 +16,10 @@ In this page, you will find train schedule and can also input your own schedule 
 
 ** Using **
 
-HTML5
-CSS
-JAVASCRIPT
-JQUERY
-FIREBASE
-BOOTSTRAP
+1. HTML5
+2. CSS
+3. JAVASCRIPT
+4. JQUERY
+5. FIREBASE
+6. BOOTSTRAP
 
