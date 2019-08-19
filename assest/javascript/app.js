@@ -121,7 +121,6 @@ database.ref().on("child_added", function(childSnapshot) {
         keyremove = $(this).attr("data-name");
         database.ref().child(keyremove).remove();
         window.location = 'index.html';
-
     });
 
 
