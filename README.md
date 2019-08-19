@@ -6,7 +6,7 @@ https://abareyan.github.io/Train-Scheduler/
 
 ** Screen Shots **
 
-![Screen1](assets/images/ScreenShot.png)
+![Screen1](assest/images/ScreenShot.png)
 
 
 ** About the page **
@@ -19,7 +19,7 @@ In this page, you will find train schedule and can also input your own schedule 
 HTML5
 CSS
 JAVASCRIPT
-JQYERY
+JQUERY
 FIREBASE
 BOOTSTRAP
 
