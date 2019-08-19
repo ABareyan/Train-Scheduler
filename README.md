@@ -6,7 +6,7 @@ https://abareyan.github.io/Train-Scheduler/
 
 ** Screen Shots **
 
-![Screen1](assest/images/ScreenShot.png)
+![Screen1](assest/images/ScreenShot1.png)
 
 
 ** About the page **
