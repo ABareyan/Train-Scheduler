@@ -49,9 +49,12 @@ $('#btn').on("click", function() {
     if (nameTrain === "" ||
         destinationTrain === "" ||
         firstTrain === "" ||
-        trainFrequency === "") {
+        trainFrequency === "" ||
+        trainHour < 1 || trainHour > 12 ||
+        trainMinute < 0 || trainMinute > 59 ||
+        trainFrequency < 0) {
         $('.attention').show();
-        $('.attention').html("<p>Please input all details and press submit to add a new train</p>");
+        $('.attention').html("<p>Please input all details (hours from 1 to 12, minutes from 0 to 59, positive frequency) and press submit to add a new train.</p>");
 
     } else {
         $('.attention').hide();
